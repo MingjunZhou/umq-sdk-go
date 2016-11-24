@@ -12,6 +12,7 @@ type UmqProducer struct {
 }
 
 type PublishResponse struct {
+	MessageID string
 }
 
 //PublishMsg 发布消息
